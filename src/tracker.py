@@ -37,7 +37,7 @@ class PerformanceTracker:
         
         # Add this attempt to our main log
         self.performance_log.append(attempt_data)
-        print(f"-> Logged: Correct={was_correct}, Time={time_taken:.2f}s")
+        # print(f"-> Logged: Correct={was_correct}, Time={time_taken:.2f}s")
 
     def get_summary(self):
         """
